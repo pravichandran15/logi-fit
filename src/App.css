@@ -93,20 +93,10 @@ td {
     background-color: #2cd5c4;
 }
 
-.cycling-logo {
-    background: url("./assets/cycling-logo.png") no-repeat;
-    background-size: 50% 50% !important;
-    width: 646px;
-    height: 375px;
-}
-
 /*for mobile and tablets*/
 @media (max-width: 800px) {
     .rc-table-container {
         justify-content: flex-start
-    }
-    .cycling-logo{
-        background-size: 20% 20% !important;
     }
     .strava-display{
         display: none;
