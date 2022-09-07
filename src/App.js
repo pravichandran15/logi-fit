@@ -60,6 +60,7 @@ function App() {
             <div>
                 <h2 className='total-distance-text'> 🚴 - Sept 2022</h2>
             </div>
+
             <div className={'flex-div-column'}>
                 <form className='float-center'>
                     <input defaultChecked={true} type="radio" name="fruit" value="all" onChange={() => {
@@ -75,8 +76,15 @@ function App() {
                 <div className='float-right padding-right-20'>
                     <h3 className='total-distance-text'>Total distance : {grantTotal} km</h3>
                 </div>
-                <div>
-                    <Table useFixedHeader={true} columns={columns} data={row}></Table>
+                <div className={'flex-div'}>
+                    <div className='strava-display'>
+                        <iframe allowTransparency frameBorder='0' height='454' scrolling='no'
+                                src='https://www.strava.com/clubs/1073666/latest-rides/48cd92fc4ec815167bc376a0baff8464d17e792b?show_rides=true'
+                                width='300'></iframe>
+                    </div>
+                    <div className='flex-float-center'>
+                        <Table useFixedHeader={true} columns={columns} data={row}></Table>
+                    </div>
                 </div>
             </div>
         </div>
