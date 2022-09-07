@@ -108,5 +108,8 @@ td {
     .cycling-logo{
         background-size: 20% 20% !important;
     }
+    .strava-display{
+        display: none;
+    }
 }
 

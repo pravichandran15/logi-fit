@@ -55,10 +55,7 @@ function App() {
     return (
         <div className="App">
             <div className='background-blue'>
-                <h1 className='title'>LogiFit - Challenge</h1>
-            </div>
-            <div>
-                <h2 className='total-distance-text'> 🚴 - Sept 2022</h2>
+                <h1 className='title'>LogiFit Challenge 🚴 - Sept 2022</h1>
             </div>
 
             <div className={'flex-div-column'}>
